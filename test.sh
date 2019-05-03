@@ -1,5 +1,7 @@
 core=$(sysctl -n hw.ncpu)
 echo $core
-ps -A -o %cpu | awk '{s+=$1} END {print s}'
-cpu=$(($core/$s))
-echo cpu
+s=$(ps -A -o %cpu | awk '{s+=$1} END {print s}')
+per=$(printf "%.0f" $s)
+echo $per
+cpu=$(($per/$core))
+echo $cpu
