@@ -1,7 +1,26 @@
-11:PID    COMMAND
-12-99761  helpd  
-13-97190  bash   
---
-24:PID    COMMAND        
-25-79513  Spotify        
-26-95607  mdworker_shared
+Processes: 399 total, 2 running, 397 sleeping, 1532 threads 
+2019/05/28 17:27:02
+Load Avg: 2.73, 2.30, 2.21 
+CPU usage: 9.45% user, 22.97% sys, 67.56% idle 
+MemRegions: 53108 total, 1681M resident, 0B private, 905M shared.
+PhysMem: 5483M used (1370M wired), 2708M unused.
+VM: 1760G vsize, 0B framework vsize, 3520242(0) swapins, 3745490(0) swapouts.
+Networks: packets: 10936042/14G in, 3604351/489M out.
+Disks: 1464011/37G read, 2803724/50G written.
+
+PID   
+97190 
+95937 
+Processes: 399 total, 2 running, 397 sleeping, 1532 threads 
+2019/05/28 17:27:03
+Load Avg: 2.73, 2.30, 2.21 
+CPU usage: 1.44% user, 2.16% sys, 96.39% idle 
+MemRegions: 53108 total, 1681M resident, 0B private, 905M shared.
+PhysMem: 5482M used (1369M wired), 2709M unused.
+VM: 1760G vsize, 0B framework vsize, 3520242(0) swapins, 3745490(0) swapouts.
+Networks: packets: 10936095/14G in, 3604357/489M out.
+Disks: 1464011/37G read, 2803725/50G written.
+
+PID   
+2892  
+3849  

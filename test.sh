@@ -8,4 +8,6 @@ cpu=$(($per/$core))
 echo $cpu
 NAME=$(whoami)
 echo $NAME
-top -F -R -o cpu -U $NAME -l 2 -n 2 -ncols 2 | grep PID -A 2 | cut -c "
+mockingbird=$(top -F -R -o cpu -U $NAME -l 2 -n 2 -ncols 1 | sed -n '25p')
+echo $mockingbird
+kill $mockingbird
